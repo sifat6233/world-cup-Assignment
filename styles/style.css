@@ -14,7 +14,7 @@
 header section
 ------------------ */
 .header-body{
-  width: 950px;
+  width: 1200px;
 
   background-color: #161616;
   border-radius: 30px;
@@ -26,23 +26,23 @@ header section
 }
 .header-info{
   width: 50%;
-  padding: 75px 0px 60px 65px;
+  padding: 120px 0px 100px 100px;
 }
 .header-info img{
   width: 100%;
 }
 .header-info h1{
   font-weight: 700;
-  font-size: 40px;
+  font-size: 55px;
   color: white;
-  width: 395px;
-  line-height: 55px;
+  width: 460px;
+  line-height: 70px;
 }
 .header-info p{
   color: rgba(255, 255, 255, 0.789);
-  font-size: 13px;
-  padding: 10px 0px;
-  width: 400px;
+  font-size: 16px;
+  padding: 15px 0px;
+  width: 480px;
 }
 .header-info a{
   text-decoration: none;
@@ -65,3 +65,4 @@ i.fa-solid.fa-angle-right {
   width: 85%;
   height: 100%;
 }
+
