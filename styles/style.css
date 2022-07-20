@@ -17,17 +17,23 @@
 /* ------------------
 header section
 ------------------ */
+header.header-body {
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
 .header-body{
   width: 90%;
   background-color: #161616;
   border-radius: 30px;
   margin: auto;
+  overflow: hidden;
 }
 .header-wrap{
   display: flex;
   margin-top: 30px;
-  margin-bottom: 130px;
+
 }
+
 .header-info{
   width: 50%;
   padding: 111px 0px 111px 106px;
@@ -73,6 +79,9 @@ i.fa-solid.fa-angle-right {
 /* ---------------
 nav section 
 -----------------*/
+main{
+  overflow: hidden;
+}
 .main-wrap{
   display: flex;
   justify-content: space-between;
@@ -190,6 +199,7 @@ footer
 ----------------------- */
 footer{
   background-color: #161616;
+  overflow: hidden;
 }
 .footer-wrap{
   text-align: center;
@@ -215,14 +225,18 @@ hr{
 .social-link a{
   text-decoration: none;
   margin-right: 10px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   display: inline-block;
   font-size: 14px;
   color: #B9B9B9;
   font-weight: 500;
+  padding-bottom: 40px;
 }
 .social-link a:hover{
   color: white;
 }
 
-
+.view-btn{
+  display: none;
+  overflow: hidden;
+}
