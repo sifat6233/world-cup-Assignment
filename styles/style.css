@@ -159,6 +159,9 @@ nav li a:hover{
   grid-gap: 24px;
   margin-bottom: 130px;
 }
+.blog-section-wrapper, .match-section-wrapper {
+  padding-right: 5px;
+}
 .single-blog, .single-match{
   border: 1px solid #16161617;
   border-radius: 10px;
