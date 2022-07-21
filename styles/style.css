@@ -46,7 +46,6 @@ header.header-body {
 .header-wrap{
   display: flex;
   margin-top: 30px;
-
 }
 
 .header-info{
@@ -83,12 +82,8 @@ header.header-body {
   position: relative;
 }
 .header-info a:hover{
-
   color: aqua;
 }
-
-
-
 i.fa-solid.fa-angle-right {
   margin-left: 5px;
 }
@@ -96,7 +91,6 @@ i.fa-solid.fa-angle-right {
   width: 50%;
   padding-top: 20px;
   animation: zoomInOut 8s ease infinite;
-
 }
 .header-img img{
   width: 85%;
@@ -151,7 +145,9 @@ nav li a:hover{
   color: white;
 }
 
-/* blog section */
+/*----------------------
+  blog section
+--------------------- */
 .blog-section, .match-schedule-section{
   width: 75%;
   justify-content: space-between;
@@ -206,7 +202,9 @@ nav li a:hover{
   margin-right: 10px;
 }
 
-/* match css */
+/*----------------------
+  match
+--------------------- */
 .match-flag {
   display: flex;
   align-items: center;
@@ -267,7 +265,6 @@ hr{
 .social-link a:hover{
   color: white;
 }
-
 .view-btn{
   display: none;
   overflow: hidden;
